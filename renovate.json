@@ -1,0 +1,42 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:recommended",
+    "docker:pinDigests",
+    "group:jsUnitTest",
+    "group:vite",
+    "helpers:pinGitHubActionDigestsToSemver",
+    ":approveMajorUpdates",
+    ":configMigration",
+    ":enableVulnerabilityAlerts",
+    ":pinAllExceptPeerDependencies"
+  ],
+  "packageRules": [
+    {
+      "extends": ["packages:eslint"],
+      "groupName": "eslint packages"
+    },
+    {
+      "groupName": "prettier packages",
+      "matchPackageNames": ["prettier**", "@ianvs/prettier-plugin-sort-imports"]
+    },
+    {
+      "groupName": "playwright monorepo",
+      "matchPackageNames": [
+        "playwright",
+        "@playwright/test",
+        "mcr.microsoft.com/playwright"
+      ]
+    },
+    {
+      "groupName": "bun monorepo",
+      "matchPackageNames": ["bun", "@types/bun", "oven/bun"],
+      "matchUpdateTypes": ["digest", "patch", "minor", "major"]
+    }
+  ],
+  "patch": {
+    "rebaseWhen": "behind-base-branch"
+  },
+  "rebaseWhen": "conflicted",
+  "osvVulnerabilityAlerts": true
+}
