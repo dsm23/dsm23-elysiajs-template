@@ -1,4 +1,8 @@
 {
-  "recommendations": ["editorconfig.editorconfig", "esbenp.prettier-vscode"],
+  "recommendations": [
+    "editorconfig.editorconfig",
+    "esbenp.prettier-vscode",
+    "ms-azuretools.vscode-containers"
+  ],
   "unwantedRecommendations": []
 }

@@ -1,0 +1,7 @@
+*
+!.husky/
+!src/
+!bun.lock
+!bunfig.toml
+!package.json
+!tsconfig.*
