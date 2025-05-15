@@ -1,5 +1,6 @@
 {
   "recommendations": [
+    "biomejs.biome",
     "editorconfig.editorconfig",
     "esbenp.prettier-vscode",
     "joshbolduc.commitlint",
