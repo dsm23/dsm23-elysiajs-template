@@ -2,6 +2,7 @@
   "recommendations": [
     "editorconfig.editorconfig",
     "esbenp.prettier-vscode",
+    "joshbolduc.commitlint",
     "ms-azuretools.vscode-containers"
   ],
   "unwantedRecommendations": []
