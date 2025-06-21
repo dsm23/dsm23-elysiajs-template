@@ -1,6 +1,6 @@
 # syntax=docker.io/docker/dockerfile:1@sha256:9857836c9ee4268391bb5b09f9f157f3c91bb15821bb77969642813b0d00518d
 
-FROM oven/bun:1.2.16-slim@sha256:7bda15c8daa978cc276dce98ca8e84ac904e5788ae82bb2b7a27a9084f45c6a2 AS base
+FROM oven/bun:1.2.17-slim@sha256:0c8fe37d800f70c08284fed981fa006ec832a872214ce721e372892b76072171 AS base
 
 WORKDIR /app
 
