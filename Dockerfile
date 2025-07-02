@@ -8,9 +8,6 @@ WORKDIR /app
 COPY package.json package.json
 COPY bun.lock bun.lock
 
-# for the sake of the prepare script
-COPY .husky/ ./.husky/
-
 RUN bun install --frozen-lockfile
 
 COPY ./src ./src

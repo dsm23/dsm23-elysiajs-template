@@ -1,5 +1,4 @@
 *
-!.husky/
 !src/
 !bun.lock
 !bunfig.toml
