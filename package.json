@@ -9,7 +9,7 @@
     "lint": "biome lint ."
   },
   "dependencies": {
-    "elysia": "1.3.5"
+    "elysia": "1.3.6"
   },
   "devDependencies": {
     "@biomejs/biome": "2.1.2",
