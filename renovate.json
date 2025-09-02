@@ -23,6 +23,7 @@
       ]
     }
   ],
+  "ignoreDeps": ["ghcr.io/dsm23/dsm23-elysiajs-template"],
   "packageRules": [
     {
       "extends": ["packages:eslint"],
