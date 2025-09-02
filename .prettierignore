@@ -4,6 +4,7 @@ build/
 target/
 compiled/
 coverage
+infra/
 lerna.json
 test-timings.json
 bun.lock
