@@ -23,6 +23,8 @@
     }
   ],
   "ignoreDeps": ["ghcr.io/dsm23/dsm23-elysiajs-template"],
+  "internalChecksFilter": "strict",
+  "minimumReleaseAge": "3 days",
   "packageRules": [
     {
       "extends": ["packages:eslint"],
