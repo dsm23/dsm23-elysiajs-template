@@ -2,9 +2,9 @@
   "recommendations": [
     "biomejs.biome",
     "editorconfig.editorconfig",
-    "esbenp.prettier-vscode",
     "joshbolduc.commitlint",
-    "ms-azuretools.vscode-containers"
+    "ms-azuretools.vscode-containers",
+    "oxc.oxc-vscode"
   ],
   "unwantedRecommendations": []
 }

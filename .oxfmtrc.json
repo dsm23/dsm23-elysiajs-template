@@ -1,0 +1,23 @@
+{
+  "$schema": "./node_modules/oxfmt/configuration_schema.json",
+  "printWidth": 80,
+  "ignorePatterns": ["infra/templates/**/*.yaml", "bun.lock"],
+  "sortPackageJson": false,
+  "sortImports": {
+    "newlinesBetween": false,
+    "customGroups": [
+      {
+        "groupName": "elysia-libs",
+        "elementNamePattern": ["elysia"]
+      }
+    ],
+    "groups": [
+      "elysia-libs",
+      ["value-builtin", "type-builtin"],
+      ["value-external", "type-external"],
+      ["value-internal", "type-internal"],
+      ["value-parent", "value-sibling", "value-index"],
+      "unknown"
+    ]
+  }
+}
