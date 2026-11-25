@@ -22,7 +22,7 @@ RUN bun build \
 	--outfile server \
 	./src/index.ts
 
-FROM gcr.io/distroless/base:latest@sha256:f4a335ca209e1d2ee873102c17c389ad0142e3d5b21aee2817e9cc9c01d87d20
+FROM gcr.io/distroless/base:latest@sha256:1eb7e763df3f75a0d0eab87368f04e1bc61ce268caf3f2cbae765fa8fd4fd3e8
 
 WORKDIR /app
 
